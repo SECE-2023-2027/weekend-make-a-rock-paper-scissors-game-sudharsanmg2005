@@ -1,0 +1,68 @@
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #ffecd2, #fcb69f);
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 30px;
+  background: #ffffffcc;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  border-radius: 12px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 32px;
+  color: #4b0082;
+  margin-bottom: 30px;
+}
+
+.game-board {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.choice-card {
+  text-align: center;
+}
+
+.choice-icon {
+  font-size: 64px;
+  margin-top: 10px;
+}
+
+.vs-section p {
+  font-size: 24px;
+  color: #ff4500;
+  font-weight: bold;
+}
+
+.buttons button {
+  font-size: 24px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 8px;
+  background: #ff6f61;
+  border: none;
+  color: white;
+  transition: background 0.3s ease;
+}
+
+.buttons button:hover {
+  background: #e63946;
+}
+
+.result-text {
+  font-size: 22px;
+  margin-top: 25px;
+  font-weight: bold;
+  color: #2e8b57;
+}
